@@ -751,6 +751,11 @@ video {
   background-color: transparent;
 }
 
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
 .bg-\[linear-gradient\(180deg\2c \#000000_0\%\2c \#26327F_100\%\)\] {
   background-image: linear-gradient(180deg,#000000 0%,#26327F 100%);
 }
@@ -830,6 +835,10 @@ video {
 .text-\[\#131730\] {
   --tw-text-opacity: 1;
   color: rgb(19 23 48 / var(--tw-text-opacity));
+}
+
+.line-through {
+  text-decoration-line: line-through;
 }
 
 html {
