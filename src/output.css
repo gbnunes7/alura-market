@@ -691,6 +691,11 @@ video {
   line-height: 1.25rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-\[\#DBE4EF\] {
   --tw-text-opacity: 1;
   color: rgb(219 228 239 / var(--tw-text-opacity));
