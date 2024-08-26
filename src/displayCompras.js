@@ -1,9 +1,9 @@
-import itemLayout from "./itemLayout.js";
+import {itemLayout} from "./itemLayout.js";
 
 export default function displayCompras(array, date,div) {
-	const items = array.map((item) => {
-		return itemLayout(item, date);
+	const item = array.map((item,index) => {
+		return itemLayout(item, date,index);
 	});
 
-	div.innerHTML = items.join("");
+	div.innerHTML = item.join("");
 }
